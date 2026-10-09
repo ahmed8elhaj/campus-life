@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 * {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
@@ -18,9 +22,6 @@ header {
     color: #ffffff;
     background-color: #034bff;
     width: 150px;
-
-
-
     padding: 15px 22px;
     border-radius: 6px;
     text-decoration: none;
@@ -170,4 +171,33 @@ header {
     display: block;
     width: 100%;
     height: auto;
+
+}
+
+.second-section {
+    margin: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clee-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 50px;
+    color: #034BFF;
+}
+
+.statistique {
+    margin: 0 20px;
+    padding: 0;
+}
+
+.social {
+    font-size: 50px;
+    font-weight: 800;
 }
