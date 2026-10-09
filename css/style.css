@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    gap: 20px;
+}
+
+.button-rejoin {
+    font-weight: bolder;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #034bff;
+    width: 150px;
+
+
+
+    padding: 15px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-bar a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-bar a:hover {
+    color: #034bff;
+    text-decoration: underline;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    width: 30px;
+}
+
+
+
+.top-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #08111d;
+    color: white;
+}
+
+
+.hero-content {
+    width: 50%;
+    padding: 50px 5%;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: clamp(48px, 5vw, 88px);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+
+.campus {
+    display: block;
+    color: #b9deff;
+}
+
+.life {
+    display: block;
+    color: #034bff;
+}
+
+.symbol {
+    color: #c6ff45;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 15px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #034bff;
+    color: white;
+}
+
+.btn-secondary {
+    border: 1px solid #b9deff;
+    color: white;
+}
+
+
+.hero-community {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.avatars {
+    display: flex;
+}
+
+.avatars span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #c0d4df;
+    color: #08111d;
+    font-weight: 700;
+    margin-left: -5px;
+}
+
+
+.hero-image {
+    width: 50%;
+}
+
+.girl-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
